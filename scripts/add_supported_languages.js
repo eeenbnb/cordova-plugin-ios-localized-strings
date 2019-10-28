@@ -11,7 +11,7 @@ const path = require('path');
 const plist = require('plist');
 
 module.exports = context => {
-  const ConfigParser = context.requireCordovaModule('cordova-common').ConfigParser;
+  const ConfigParser = require('cordova-common').ConfigParser;
 
   return new Promise((resolve, reject) => {
     let mainConfig = new ConfigParser(path.resolve(context.opts.projectRoot, 'config.xml'));

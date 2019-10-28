@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-ios-localized-strings" version="1.0.6" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-ios-localized-strings" version="1.0.7" xmlns="http://apache.org/cordova/ns/plugins/1.0">
   <name>Cordova iOS Localized Strings</name>
   <author>Enrico Deleo (http://enricodeleo.com/)</author>
   <description>Cordova / PhoneGap Plugin that declares supported languages for App Store (iTunes).</description>
   <keywords>cordova, ios, app, localization, strings, locale, internazionalization, i18n</keywords>
   <license>MIT</license>
   <engines>
-    <engine name="cordova" version=">=3.0.0"/>
+    <engine name="cordova" version=">=9.0.0"/>
   </engines>
 
   <platform name="ios">
